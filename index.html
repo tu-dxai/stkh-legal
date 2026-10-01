@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STKH App</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2933; --muted: #52606d; --link: #1f3a5f; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14181d; --fg: #e4e7eb; --muted: #9aa5b1; --link: #f2c14e; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.2rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .muted { color: var(--muted); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+<h1>STKH App</h1>
+<p class="muted">"Sự thật khoa học" – science facts video studio</p>
+
+<p>STKH App is a personal desktop application that runs locally on the creator's own computer. It turns the creator's own scripts into short vertical science explainer videos, with AI voice-over and AI-generated images, and sends them to the creator's own TikTok account.</p>
+
+<h2>How it works</h2>
+<ol>
+  <li>The creator writes or adds a script, and the app renders it into a 9:16 MP4 video.</li>
+  <li>The creator connects their TikTok account with TikTok Login Kit.</li>
+  <li>When the creator clicks "Send to TikTok drafts", the video is uploaded to their TikTok inbox through the Content Posting API. They add music, review it and post it themselves in the TikTok app.</li>
+</ol>
+<p>The app never posts automatically, and TikTok tokens are stored only on the creator's computer.</p>
+
+<p class="muted"><a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></p>
+</main>
+</body>
+</html>
